@@ -1,0 +1,90 @@
+.copyright_box {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.copyright_box > h2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 28px;
+}
+
+.night .copyright_box {
+  background-color: rgb(41, 41, 48);
+  color: white;
+}
+
+.night button {
+  color: white;
+}
+
+.copyright_page_header {
+  position: relative;
+  text-align: center;
+  margin-top: 120px;
+  width: 70%;
+  left: 15%;
+}
+
+.image_grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width:80%;
+  left:10%;
+}
+
+.image_grid > div {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.image_grid > div > div> img {
+  width: 99%;
+}
+
+.photo_comment {
+  position: relative;
+  margin-top: 50px;
+  width: 80%;
+  left: 10%;
+}
+
+.copyright_title{
+  font-family: cursive;
+  text-align: center;
+  width: 30%;
+}
+
+.copyright_row {
+  position: relative;
+  left: 7%;
+  width: 86%;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.copyright_sub_img {
+}
+
+.copyright_sub_img > img{
+  width: 60px;
+}
+
+.copyright_img > img {
+  width: 60px;
+}
+
+.copyright_description {
+}
+
+@media screen and (max-width: 700px) {
+  .image_grid {
+    display: block;
+  }
+}

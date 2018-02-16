@@ -1,0 +1,128 @@
+.coding_box {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.night .coding_box {
+  background-color: rgb(41, 41, 48);
+  color: white;
+}
+
+.header_box {
+  margin-top: 100px;
+  position: relative;
+  width: 80%;
+  left: 10%;
+  margin-bottom: 30px;
+}
+
+.index_row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  width: 90%;
+  left: 5%;
+  text-align: center;
+}
+
+.index_inner_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-style: solid;
+  border-width: thin;
+  align-items: center;
+  background-color: rgb(230, 230, 220);
+  height: 70px;
+}
+
+.index_inner_grid > div {
+  display: flex;
+  height:100%;
+  width:100%;
+  border-style: solid;
+  border-width: thin;
+  align-items: center;
+}
+
+.index_inner_grid > div > div {
+  flex-grow: 1;
+}
+
+.index_inner_flex {
+  display: flex;
+  border-style: solid;
+  border-width: thin;
+  align-items: center;
+  background-color: rgb(230, 230, 220);
+  height: 70px;
+}
+
+.index_inner_flex > p {
+  flex-grow: 1;
+}
+
+.night .index_row > div {
+  background-color: rgb(20, 20, 25);
+}
+
+.grid_row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 2fr 5fr;
+  width: 90%;
+  left: 5%;
+  text-align: center;
+}
+
+.grid_inner_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-style: solid;
+  border-width: thin;
+  align-items: center;
+  background-color: rgb(230, 230, 220);
+  height: 150px;
+}
+
+.grid_inner_grid > div {
+  display: flex;
+  height:100%;
+  width:100%;
+  border-style: solid;
+  border-width: thin;
+  align-items: center;
+}
+
+.grid_inner_grid > div > div {
+  flex-grow: 1;
+}
+
+.grid_inner_flex {
+  display: flex;
+  border-style: solid;
+  border-width: thin;
+  align-items: center;
+  background-color: rgb(230, 230, 220);
+  height: 150px;
+}
+
+.index_inner_flex > p {
+  flex-grow: 1;
+}
+
+
+.night .grid_row > div {
+  background-color: rgb(20, 20, 25);
+}
+
+@media screen and (max-width: 700px) {
+  .index_inner_grid {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+  }
+  .grid_inner_grid {
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+  }
+}

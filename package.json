@@ -1,0 +1,23 @@
+{
+  "name": "portfolio2_frontend",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*",
+    "jsx-loader": "*",
+    "babel-loader": "*",
+    "babel-preset-env": "*",
+    "babel-plugin-transform-react-jsx": "*",
+    "html-webpack-plugin": "*",
+    "babel-core": "*",
+    "css-loader": "*",
+    "style-loader": "*",
+    "path": "*"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --open --hot"
+  }
+}

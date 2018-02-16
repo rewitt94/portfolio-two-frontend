@@ -1,0 +1,101 @@
+.top {
+  background-color: rgb(255, 255, 242);
+  position: fixed;
+  height: 50px;
+  width: 100vw;
+  z-index: 3;
+  font-size: 22px;
+  font-family: monospace;
+  border-bottom-style: solid;
+  border-width: thick;
+}
+
+.top > img:hover {
+  opacity: 0.1;
+  cursor: pointer;
+}
+
+.night .top {
+  background-color: rgb(41, 41, 48);
+  color: white;
+}
+
+.nav_menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  right: 0px;
+  width: 500px;
+  height:100vh;
+  color: white;
+  background-color: black;
+  text-align: center;
+  z-index: 999;
+  opacity: 0.8;
+  border-left-style: solid;
+  border-width: medium;
+  border-color: #EE2C73;
+  overflow-y: auto;
+}
+
+.night .nav_menu {
+  border-color: tan;
+}
+
+.nav_menu img:hover {
+  opacity: 0.1;
+  cursor: pointer;
+}
+
+.nav_menu > div {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  width: 80%;
+  left: 10%;
+  align-items: center;
+}
+
+.nav_menu > div > h1 {
+  flex-grow: 1;
+}
+
+.nav_menu > div:hover{
+  color: #EE2C73;
+  cursor: pointer;
+}
+
+.night .nav_menu > div:hover{
+  color: tan;
+  cursor: pointer;
+}
+
+.internal_menu_sym {
+  width: 50px;
+  top: 0;
+  right: 0;
+  position: absolute;
+  filter: invert(100);
+  visibility: hidden;
+}
+
+.bottom {
+  background-color: black;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr .8fr 1fr 1fr;
+  height: 4vw;
+  width: 100vw;
+  bottom: 0px;
+  z-index: 3;
+  font-size: 1.5vw;
+  align-items: center;
+  text-align: center;
+  border-top-style: solid;
+}
+
+@media screen and (max-width: 700px) {
+  .nav_menu {
+    width: 100vw;
+  }
+}
