@@ -237,7 +237,7 @@ export class CV extends React.Component {
             <hr></hr>
             <br/>
             <br/>
-            <h1>Please see my CV on GitHub <span>here</span>.</h1>
+            <h1>Please see my CV on GitHub <span onClick={() => {var win = window.open('https://github.com/rewitt94/CV', '_blank'); win.focus()}}>here</span>.</h1>
           </div>
         </div>
         <Bottom />
