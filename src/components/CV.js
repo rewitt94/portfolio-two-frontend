@@ -19,7 +19,7 @@ export class CV extends React.Component {
       ],
       questionInfo: [
         [
-          'I am 23 years old',
+          'One, I am 23 years old',
           'I studied Maths at university',
           'I built the Eiffel Tower',
           'Ok, this is a practice one. Which is the lie?',
