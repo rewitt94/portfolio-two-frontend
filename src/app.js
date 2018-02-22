@@ -9,10 +9,6 @@ import "./styles/copyright.css"
 import { Home } from './components/home.js';
 import { Top } from './components/navbars.js';
 
-// import {createStore} from 'redux';
-// import allReducers from './reducers';
-// const store = createStore(allReducers);
-
 class App extends React.Component {
   constructor(props) {
     super(props);

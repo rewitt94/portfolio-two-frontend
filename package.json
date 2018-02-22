@@ -14,7 +14,9 @@
     "babel-core": "*",
     "css-loader": "*",
     "style-loader": "*",
-    "path": "*"
+    "path": "*",
+    "react-redux": "*",
+    "redux": "*"
   },
   "scripts": {
     "build": "webpack",

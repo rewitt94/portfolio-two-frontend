@@ -1,6 +1,6 @@
-import {combineReducers} from 'redux'
-import AnsweredReducer from './answered.js'
+import { combineReducers } from 'redux'
+import answered from './answered.js'
 
-const allReducers = combineReducers({
-  answered: AnsweredReducer
+export default combineReducers({
+  answered
 });

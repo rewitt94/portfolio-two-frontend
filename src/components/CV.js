@@ -2,15 +2,30 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Bottom } from './navbars.js'
 
+import { createStore } from 'redux';
+import reducers from '../reducers/index.js';
+const store = createStore(reducers);
+console.log(store.getState())
+
 export class CV extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       questionSelected: 0,
+      questionAnswered: [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
       order: [0,1,2],
       questionInfo: [
         [
-          'One, I am 23 years old',
+          'I am 23 years old',
           'I studied Maths at university',
           'I built the Eiffel Tower',
           'Ok, this is a practice one. Which is the lie?',
@@ -93,7 +108,7 @@ export class CV extends React.Component {
   }
   render() {
     const question = this.state.questionSelected;
-    const answered = this.state.questionAnswered;
+    const answered = store.getState().answered;
     const info = this.state.questionInfo;
     const order = this.state.order;
     return (
@@ -103,7 +118,6 @@ export class CV extends React.Component {
             <h1><span>Two Truths and a Lie</span></h1>
           </div>
           <div className="comments_box">
-            <p style={answered[question] != null ? {} : {visibility: 'hidden'}}>{info[question][4]}</p>
             <hr></hr>
           </div>
           <div className="question_buttons">
@@ -126,11 +140,17 @@ export class CV extends React.Component {
             <div style={question==6 ? {visibility: 'visible'} : {visibility: 'hidden'}}><img src="http://images.clipartpanda.com/arrow-20clip-20art-1313159942_Vector_Clipart.png"/></div>
             <div style={question==7 ? {visibility: 'visible'} : {visibility: 'hidden'}}><img src="http://images.clipartpanda.com/arrow-20clip-20art-1313159942_Vector_Clipart.png"/></div>
           </div>
-          <div className="to_github_box">
-            <p>{info[question][order[0]]}</p>
-            <p>{info[question][order[1]]}</p>
-            <p>{info[question][order[2]]}</p>
+          <div className="comments_box">
             <hr></hr>
+            <h2 style={answered[question] == null ? {} : order[0] == 2 ? {color: '#007304'} : {color: '#980005'}}>{info[question][order[0]]}</h2>
+            <h2 style={answered[question] == null ? {} : order[1] == 2 ? {color: '#007304'} : {color: '#980005'}}>{info[question][order[1]]}</h2>
+            <h2 style={answered[question] == null ? {} : order[2] == 2 ? {color: '#007304'} : {color: '#980005'}}>{info[question][order[2]]}</h2>
+            <br></br>
+            <br></br>
+            <p style={answered[question] != null ? {} : {visibility: 'hidden'}}>{info[question][4]}</p>
+          </div>
+          <div className="to_github_box">
+            <p>{answered[question]}</p>
             <br/>
             <br/>
             <h1>Please see my CV on GitHub <span onClick={() => {var win = window.open('https://github.com/rewitt94/CV', '_blank'); win.focus()}}>here</span>.</h1>
