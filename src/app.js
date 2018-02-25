@@ -6,6 +6,7 @@ import "./styles/navbars.css";
 import "./styles/projects.css";
 import "./styles/CV.css";
 import "./styles/copyright.css"
+import "./styles/myself.css";
 import { Home } from './components/home.js';
 import { Top } from './components/navbars.js';
 

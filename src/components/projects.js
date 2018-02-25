@@ -18,7 +18,8 @@ export class Projects extends React.Component {
             <div className="project_description">
               <p>
               This is the website that you are currently visiting.
-              Click <span onClick={() => {var win = window.open('https://github.com/rewitt94/portfolio-two-server', '_blank'); win.focus()}}>here</span> to view the back-end express server and click <span onClick={() => {var win = window.open('https://github.com/rewitt94/portfolio-two-frontend', '_blank'); win.focus()}}>here</span> to view the front-end React app.
+              Click <span onClick={() => {var win = window.open('https://github.com/rewitt94/portfolio-two-server', '_blank'); win.focus()}}>here</span> to view the back-end express server.
+              Click <span onClick={() => {var win = window.open('https://github.com/rewitt94/portfolio-two-frontend', '_blank'); win.focus()}}>here</span> to view the front-end React app which is webpack compiled and contains a Redux store.
               The website is compatible with mobile (it is compatible with varied screen sizes).</p>
             </div>
           </div>

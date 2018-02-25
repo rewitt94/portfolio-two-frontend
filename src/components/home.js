@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Bottom } from './navbars';
 import { Coding } from './coding.js';
 import { Projects } from './projects.js';
-import { Contact } from './contact.js';
+import { Myself } from './myself.js';
 import { CV } from './CV.js'
 import { Copyright } from './copyright.js'
 
@@ -101,6 +101,12 @@ class HomeBox extends React.Component {
           src="http://www.clker.com/cliparts/E/C/O/z/A/T/swirl-hi.png"/>
           <h1 style={{fontFamily:'cursive',textAlign:'center'}}>Welcome to ricky.hewitt.tech</h1>
           <hr></hr>
+          <br></br>
+          <h2 style={{textAlign:'center', fontSize: '20px'}}>I am a Junior Dev seeking my first job in tech.</h2>
+          <p style={{textAlign:'center', fontSize: '20px'}}>richard.hewitt.94@gmail.com</p>
+          <p style={{textAlign:'center', fontSize: '20px'}}>+447402059516</p>
+          <br></br>
+          <hr></hr>
         </div>
         <div className="home_wrapper">
           <div><div>
@@ -117,7 +123,7 @@ class HomeBox extends React.Component {
           </div></div>
           <div><div>
             <div className="home_paragraph_div"><p>Please feel free to put yourself in contact with me.</p></div>
-            <div className="home_button_div"><button className="home_button" onClick={() => this.props.goPage(Contact)}>Myself / Contact</button></div>
+            <div className="home_button_div"><button className="home_button" onClick={() => this.props.goPage(Myself)}>My Self</button></div>
           </div></div>
         </div>
         <div className="home_copyright">

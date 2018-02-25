@@ -144,7 +144,7 @@ span {
   position: relative;
   width: 80%;
   left: 10%;
-  height: 350px;
+  margin-bottom: 100px;
 }
 
 .welcome_clipart {
@@ -162,6 +162,7 @@ span {
 }
 
 .home_wrapper > div {
+  position: relative;
   display: flex;
   flex-basis: calc(50%);
   align-content: center;
@@ -216,7 +217,8 @@ span {
   width: 20vw;
   font-size: 2vw;
   background: transparent;
-  font-family: cursive;
+  font-weight: bold;
+  font-family: serif;
 }
 
 .night .home_button {

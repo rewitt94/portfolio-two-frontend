@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-export class Contact extends React.Component {
+export class Myself extends React.Component {
   render() {
     return (
       <div>
