@@ -13,6 +13,20 @@ export class Projects extends React.Component {
           </div>
           <div className="project_row">
             <div className="project_title">
+              <h1><span>Reversi</span></h1>
+              <button onClick={() => {var win = window.open('/reversi', '_blank'); win.focus()}}>Play now</button>
+            </div>
+            <div className="project_description">
+              <p>A copy of the classic board game Reversi (Othello).
+              Built with vanilla Javascript, HTML and CSS.
+              Still in the early stages of development, but definitely functional as a splitscreen game.
+              The code needs major encapsulation - take a look yourself <span onClick={() => {var win = window.open('https://github.com/rewitt94/reversi', '_blank'); win.focus()}}>here</span>.
+              I hope to add a computer AI (and maybe an online multiplayer).
+              <br></br><br></br>N.B. There is a known bug if there is no valid move, but this a very rare event in game.</p>
+            </div>
+          </div>
+          <div style={{flexDirection: 'row-reverse'}} className="project_row">
+            <div className="project_title">
               <h1><span>Portfolio v2</span></h1>
             </div>
             <div className="project_description">
@@ -23,7 +37,7 @@ export class Projects extends React.Component {
               The website is compatible with mobile (it is compatible with varied screen sizes).</p>
             </div>
           </div>
-          <div style={{flexDirection: 'row-reverse'}} className="project_row">
+          <div className="project_row">
             <div className="project_title">
               <h1><span>Submarine Game</span></h1>
               <button onClick={() => {var win = window.open('/submarine', '_blank'); win.focus()}}>Play now</button>
@@ -35,11 +49,10 @@ export class Projects extends React.Component {
               However, at the time I was completely thrilled with the result.
               You can see it <span onClick={() => {var win = window.open('https://github.com/rewitt94/submarine', '_blank'); win.focus()}}>here</span>.
               Have a play!
-              <br/><br/>N.B. The play button opens a new tab I as it is not integrated into the React App.
-              This game will not work on mobile.</p>
+              <br></br><br></br>N.B. This game will not work on mobile.</p>
             </div>
           </div>
-          <div className="project_row">
+          <div style={{flexDirection: 'row-reverse'}} className="project_row">
             <div className="project_title">
               <h1><span>Portfolio v1</span></h1>
             </div>
