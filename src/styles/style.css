@@ -96,13 +96,14 @@ span {
   color: tan;
 }
 
-.problem_solving_header {
+.determination_header {
   z-index: 2;
   position: absolute;
   width: 100vw;
-  font-size: 8vw;
+  font-size: 4vw;
   color: orange;
-  text-align: right;
+  top: 2vw;
+  left: 2vw;
   font-family: 'Sedgwick Ave', cursive;
 }
 

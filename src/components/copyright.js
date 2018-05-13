@@ -35,7 +35,7 @@ export class Copyright extends React.Component {
                 <img src="https://images.unsplash.com/photo-1516191726963-61dae894c237?ixlib=rb-0.3.5&s=66e8aff4825a17de794beb4223f7c39f&auto=format&fit=crop&w=1650&q=80" />
               </div>
               <div>
-                <img src="https://images.unsplash.com/photo-1456139456319-352002cddddd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=184e54e50d22c67de464e7c04856503a&auto=format&fit=crop&w=1651&q=80" />
+                <img src="https://images.unsplash.com/photo-1499560470475-3c75b259add8?ixlib=rb-0.3.5&s=b10eef701c6afbfd8e35ac53e6ce48f6&auto=format&fit=crop&w=2850&q=80" />
               </div>
               <div>
                 <img src="https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d39fe8df8ff9407562e2f89aec3c1318&auto=format&fit=crop&w=1650&q=80" />
@@ -105,11 +105,11 @@ export class Copyright extends React.Component {
           </h2>
           <div className="copyright_row">
             <div className="copyright_sub_img">
-              <img src="https://thecliparts.com/wp-content/uploads/2016/07/submarine-clipart-2.png" />
+              <img src="http://www.clipartlord.com/wp-content/uploads/2015/04/submarine9.png" />
             </div>
             <div className="copyright_description">
               <p>
-                This is a freely available clipart (not for commercial use) taken from <a href="https://thecliparts.com/">thecliparts.com</a>
+                This is a freely available clipart  taken from <a href="http://www.clipartlord.com/">www.clipartlord.com</a>
               </p>
             </div>
           </div>

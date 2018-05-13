@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Bottom } from './navbars';
 import { Coding } from './coding.js';
 import { Projects } from './projects.js';
-import { Myself } from './myself.js';
 import { CV } from './CV.js'
 import { Copyright } from './copyright.js'
 
@@ -40,9 +39,9 @@ class Widget extends React.Component {
         },
         {
 
-          image: "https://images.unsplash.com/photo-1456139456319-352002cddddd?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=184e54e50d22c67de464e7c04856503a&auto=format&fit=crop&w=1651&q=80",
-          text: "Problem-solving",
-          class: "problem_solving_header"
+          image: "https://images.unsplash.com/photo-1499560470475-3c75b259add8?ixlib=rb-0.3.5&s=b10eef701c6afbfd8e35ac53e6ce48f6&auto=format&fit=crop&w=2850&q=80",
+          text: "Determination",
+          class: "determination_header"
         },
         {
           image: "https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d39fe8df8ff9407562e2f89aec3c1318&auto=format&fit=crop&w=1650&q=80",
@@ -101,12 +100,6 @@ class HomeBox extends React.Component {
           src="http://www.clker.com/cliparts/E/C/O/z/A/T/swirl-hi.png"/>
           <h1 style={{fontFamily:'cursive',textAlign:'center'}}>Welcome to ricky.hewitt.tech</h1>
           <hr></hr>
-          <br></br>
-          <h2 style={{textAlign:'center', fontSize: '20px'}}>I am a Junior Dev seeking my first job in tech.</h2>
-          <p style={{textAlign:'center', fontSize: '20px'}}>richard.hewitt.94@gmail.com</p>
-          <p style={{textAlign:'center', fontSize: '20px'}}>+447402059516</p>
-          <br></br>
-          <hr></hr>
         </div>
         <div className="home_wrapper">
           <div><div>
@@ -122,13 +115,9 @@ class HomeBox extends React.Component {
             <div className="home_button_div"><button className="home_button" onClick={() => this.props.goPage(CV)}>My CV</button></div>
           </div></div>
           <div><div>
-            <div className="home_paragraph_div"><p>Please feel free to put yourself in contact with me.</p></div>
-            <div className="home_button_div"><button className="home_button" onClick={() => this.props.goPage(Myself)}>My Self</button></div>
+            <div className="home_paragraph_div"><p>Please view the copyright of used images here.</p></div>
+            <div className="home_button_div"><button className="home_button" onClick={() => this.props.goPage(Copyright)}>Copyright</button></div>
           </div></div>
-        </div>
-        <div className="home_copyright">
-          <hr></hr>
-          <h1>See copyright of images <span onClick={() => this.props.goPage(Copyright)}>here</span>.</h1>
         </div>
         <Bottom />
       </div>

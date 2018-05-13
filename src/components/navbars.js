@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Home } from './home.js'
 import { Coding } from './coding.js';
 import { Projects } from './projects.js';
-import { Myself } from './myself.js';
 import { CV } from './CV.js'
 import { Copyright } from './copyright.js'
 
@@ -65,7 +64,6 @@ export class Top extends React.Component {
           <div onClick={() => this.props.goPage(Projects)}><h1>My Apps</h1></div>
           <div onClick={() => this.props.goPage(Coding)}><h1>My Coding</h1></div>
           <div onClick={() => this.props.goPage(CV)}><h1>My CV</h1></div>
-          <div onClick={() => this.props.goPage(Myself)}><h1>My Self</h1></div>
           <div onClick={() => this.props.goPage(Copyright)}><h1>Copyright</h1></div>
         </div>
       </div>

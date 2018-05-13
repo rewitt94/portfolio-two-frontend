@@ -17,6 +17,14 @@
   margin-bottom: 30px;
 }
 
+.coding_page_header {
+  position: relative;
+  text-align: center;
+  margin-top: 100px;
+  width: 60%;
+  left: 20%;
+}
+
 .index_row {
   position: relative;
   display: grid;
@@ -24,6 +32,8 @@
   width: 90%;
   left: 5%;
   text-align: center;
+  font-size: 19px;
+  font-weight: bold;
 }
 
 .index_inner_grid {
@@ -33,7 +43,7 @@
   border-width: thin;
   align-items: center;
   background-color: rgb(230, 230, 220);
-  height: 70px;
+  min-height: 70px;
 }
 
 .index_inner_grid > div {
@@ -53,6 +63,7 @@
   display: flex;
   border-style: solid;
   border-width: thin;
+  text-align: center;
   align-items: center;
   background-color: rgb(230, 230, 220);
   height: 70px;
@@ -73,6 +84,7 @@
   width: 90%;
   left: 5%;
   text-align: center;
+  font-size: 19px;
 }
 
 .grid_inner_grid {
@@ -82,7 +94,7 @@
   border-width: thin;
   align-items: center;
   background-color: rgb(230, 230, 220);
-  height: 150px;
+  min-height: 150px;
 }
 
 .grid_inner_grid > div {
@@ -92,6 +104,7 @@
   border-style: solid;
   border-width: thin;
   align-items: center;
+  font-weight: bold;
 }
 
 .grid_inner_grid > div > div {
@@ -104,7 +117,7 @@
   border-width: thin;
   align-items: center;
   background-color: rgb(230, 230, 220);
-  height: 150px;
+  min-height: 150px;
 }
 
 .index_inner_flex > p {

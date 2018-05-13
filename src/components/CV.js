@@ -25,7 +25,7 @@ export class CV extends React.Component {
       order: [0,1,2],
       questionInfo: [
         [
-          'I am 23 years old',
+          'I am 24 years old',
           'I studied Maths at university',
           'I built the Eiffel Tower',
           'Ok, this is a practice one.',
