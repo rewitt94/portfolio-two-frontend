@@ -24,7 +24,7 @@ Actually I was just trying to make a cool widget.
 
 ------
 
-#### <p style="text-align: center;">Home</p>
+#### <p align="center">Home</p>
 
 ![home screenshot](https://github.com/rewitt94/portfolio-two-frontend/blob/master/screenshots/portfolio-home.png?raw=true)
 
@@ -32,7 +32,7 @@ I have written all of the CSS; No Bootstrap, no nothing. Not because my designs 
 
 ------
 
-#### <p style="text-align: center;">Projects</p>
+#### <p align="center">Projects</p>
 
 ![home screenshot](https://github.com/rewitt94/portfolio-two-frontend/blob/master/screenshots/portfolio-projects.png?raw=true)
 
@@ -40,7 +40,7 @@ I've shortlisted my favourite projects for others to look at. Some of them are a
 
 ------
 
-#### <p style="text-align: center;">Coding</p>
+#### <p align="center">Coding</p>
 
 ![home screenshot](https://github.com/rewitt94/portfolio-two-frontend/blob/master/screenshots/portfolio-coding.png?raw=true)
 
@@ -48,7 +48,7 @@ At Maker's Academy we are taught to be language agnostic (but I may believe in J
 
 ------
 
-#### <p style="text-align: center;">Interactive CV</p>
+#### <p align="center">Interactive CV</p>
 
 ![CV screenshot](https://raw.githubusercontent.com/rewitt94/portfolio-two-frontend/master/screenshots/portfolio-CV.png)
 
